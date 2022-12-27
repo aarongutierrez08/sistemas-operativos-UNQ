@@ -1,0 +1,188 @@
+Starting emulator
+ ---- SWITCH ON ---- 
+---- :::: START CLOCK  ::: -----
+        --------------- tick: 0 ---------------
+Handling #NEW irq with parameters = {'programPath': 'c:/prg1.exe', 'priority': 0}
+HARDWARE state CPU(PC=-1)
++----+------+
+|  0 | CPU  |
+|  1 | EXIT |
+|  2 |      |
+|  3 |      |
+|  4 |      |
+|  5 |      |
+|  6 |      |
+|  7 |      |
+|  8 |      |
+|  9 |      |
+| 10 |      |
+| 11 |      |
+| 12 |      |
+| 13 |      |
+| 14 |      |
+| 15 |      |
+| 16 |      |
+| 17 |      |
+| 18 |      |
+| 19 |      |
++----+------+
+Handling #STAT irq with parameters = None
+
+ Executing program: c:/prg1.exe
+Handling #NEW irq with parameters = {'programPath': 'c:/prg2.exe', 'priority': 2}
+cpu - Exec: CPU, PC=1
+HARDWARE state CPU(PC=1)
++----+------+
+|  0 | CPU  |
+|  1 | EXIT |
+|  2 |      |
+|  3 |      |
+|  4 | CPU  |
+|  5 | EXIT |
+|  6 |      |
+|  7 |      |
+|  8 |      |
+|  9 |      |
+| 10 |      |
+| 11 |      |
+| 12 |      |
+| 13 |      |
+| 14 |      |
+| 15 |      |
+| 16 |      |
+| 17 |      |
+| 18 |      |
+| 19 |      |
++----+------+
+Handling #NEW irq with parameters = {'programPath': 'c:/prg3.exe', 'priority': 1}
+HARDWARE state CPU(PC=1)
++----+------+
+|  0 | CPU  |
+|  1 | EXIT |
+|  2 |      |
+|  3 |      |
+|  4 | CPU  |
+|  5 | EXIT |
+|  6 |      |
+|  7 |      |
+|  8 | CPU  |
+|  9 | EXIT |
+| 10 |      |
+| 11 |      |
+| 12 |      |
+| 13 |      |
+| 14 |      |
+| 15 |      |
+| 16 |      |
+| 17 |      |
+| 18 |      |
+| 19 |      |
++----+------+
+        --------------- tick: 1 ---------------
+Handling #STAT irq with parameters = None
+Handling #KILL irq with parameters = None
+
+ Executing program: c:/prg2.exe
+        --------------- tick: 2 ---------------
+Handling #STAT irq with parameters = None
+cpu - Exec: CPU, PC=1
+        --------------- tick: 3 ---------------
+Handling #STAT irq with parameters = None
+Handling #KILL irq with parameters = None
+
+ Executing program: c:/prg3.exe
+        --------------- tick: 4 ---------------
+Handling #STAT irq with parameters = None
+cpu - Exec: CPU, PC=1
+        --------------- tick: 5 ---------------
+Handling #STAT irq with parameters = None
+Handling #KILL irq with parameters = None
+        --------------- tick: 6 ---------------
+Handling #STAT irq with parameters = None
+cpu - NOOP
+        --------------- tick: 7 ---------------
+Handling #STAT irq with parameters = None
+cpu - NOOP
+        --------------- tick: 8 ---------------
+Handling #STAT irq with parameters = None
+cpu - NOOP
+Handling #NEW irq with parameters = {'programPath': 'asd', 'priority': 4}
+HARDWARE state CPU(PC=-1)
++----+------+
+|  0 | CPU  |
+|  1 | EXIT |
+|  2 |      |
+|  3 |      |
+|  4 | CPU  |
+|  5 | EXIT |
+|  6 |      |
+|  7 |      |
+|  8 | CPU  |
+|  9 | EXIT |
+| 10 |      |
+| 11 |      |
+| 12 | CPU  |
+| 13 | IO   |
+| 14 | EXIT |
+| 15 |      |
+| 16 |      |
+| 17 |      |
+| 18 |      |
+| 19 |      |
++----+------+
+
+ Executing program: asd
+        --------------- tick: 9 ---------------
+Handling #STAT irq with parameters = None
+cpu - Exec: CPU, PC=1
+        --------------- tick: 10 ---------------
+Handling #STAT irq with parameters = None
+Handling #IO_IN irq with parameters = IO
+        --------------- tick: 11 ---------------
+device Printer - Busy: 1 of 3
+Handling #STAT irq with parameters = None
+cpu - NOOP
+        --------------- tick: 12 ---------------
+device Printer - Busy: 2 of 3
+Handling #STAT irq with parameters = None
+cpu - NOOP
+        --------------- tick: 13 ---------------
+device Printer - Busy: 3 of 3
+Handling #STAT irq with parameters = None
+cpu - NOOP
+        --------------- tick: 14 ---------------
+Handling #IO_OUT irq with parameters = Printer
+
+ Executing program: asd
+Handling #STAT irq with parameters = None
+Handling #KILL irq with parameters = None
+        --------------- tick: 15 ---------------
+Handling #STAT irq with parameters = None
+cpu - NOOP
+        --------------- tick: 16 ---------------
+Handling #STAT irq with parameters = None
+cpu - NOOP
+        --------------- tick: 17 ---------------
+Handling #STAT irq with parameters = None
+cpu - NOOP
+        --------------- tick: 18 ---------------
+Handling #STAT irq with parameters = None
+cpu - NOOP
+        --------------- tick: 19 ---------------
+Handling #STAT irq with parameters = None
+cpu - NOOP
+        --------------- tick: 20 ---------------
+Handling #STAT irq with parameters = None
+cpu - NOOP
+        --------------- tick: 21 ---------------
+Handling #STAT irq with parameters = None
+cpu - NOOP
+        --------------- tick: 22 ---------------
+Handling #STAT irq with parameters = None
+cpu - NOOP
+        --------------- tick: 23 ---------------
+Handling #STAT irq with parameters = None
+cpu - NOOP
+        --------------- tick: 24 ---------------
+Handling #STAT irq with parameters = None
+cpu - NOOP
