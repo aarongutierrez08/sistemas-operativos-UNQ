@@ -1,16 +1,19 @@
-## Aquí encontrarán todo el desarrollo de la emulación de un sistema operativo.
-## Cada práctica es una avance en abordando distintas temáticas, como las diferentes tareas y partes escenciales de un sistema operativo.
+## Emulación de Sistema Operativo - Universidad Nacional de Quilmes
 
-## Tecnologías usadas:
-## Python, OOP, Threads, Files, Shell, Terminal, Logs, Data Structures
+### Aquí encontrarán todo el desarrollo de la emulación de un sistema operativo.
+### Cada práctica es una avance en abordando distintas temáticas, como las diferentes tareas y partes escenciales de un sistema operativo.
 
-### Este repositorio compartido con los profesores (se usó GitLab) para llevar a cabo la materia, donde cada estudiante debía hacer "push" de las prácticas terminadas.
+### Tecnologías usadas:
+### Python, OOP, Threads, Files, Shell, Terminal, Logs, Data Structures
+
+
+
+## Este repositorio compartido con los profesores (se usó GitLab) para llevar a cabo la materia, donde cada estudiante debía hacer "push" de las prácticas terminadas.
 
 | Nombre y Apellido              |      Mail                      |     usuario Gitlab   |
 | -----------------------------  | ------------------------------ | -------------------  |
 | Aaron Gutierrez                | aarongastongutierrez@gmail.com | aarongasgu           |  
 |                                |                                |                      |
-
 
 ## Entregas:
 
