@@ -1,10 +1,10 @@
-## Emulación de Sistema Operativo - Universidad Nacional de Quilmes
+# Emulación de Sistema Operativo - Universidad Nacional de Quilmes
 
 ### Aquí encontrarán todo el desarrollo de la emulación de un sistema operativo.
 ### Cada práctica es una avance en abordando distintas temáticas, como las diferentes tareas y partes escenciales de un sistema operativo.
 
-### Tecnologías usadas:
-### Python, OOP, Threads, Files, Shell, Terminal, Logs, Data Structures
+## Tecnologías usadas:
+### • Python, OOP, Threads, Files, Shell, Terminal, Logs, Data Structures
 
 
 
