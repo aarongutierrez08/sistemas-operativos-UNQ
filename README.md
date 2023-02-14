@@ -34,8 +34,10 @@
 
 ### Práctica 5: **Aprobado**
 - [Paginación](https://github.com/aarongutierrez08/sistemas-operativos-UNQ/tree/main/practicas/practica_5)
+
 **Diagrama de Gantt aplicado en la práctica 5**
 
 ### Extra:
 - [Shell](https://github.com/aarongutierrez08/sistemas-operativos-UNQ/tree/main/practicas/practica_5/shell.py)
+
 **Shell aplicada en la práctica 5**
